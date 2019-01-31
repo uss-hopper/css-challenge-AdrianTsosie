@@ -7,7 +7,7 @@
 		<!-- custom CSS stylesheet -->
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
 
-		<title>CSS Mockup Activity</title>
+		<title>CSS Mock up Activity</title>
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">
