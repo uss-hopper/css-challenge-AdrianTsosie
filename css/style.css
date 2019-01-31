@@ -6,7 +6,7 @@
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
 html, body {
-	margin: 0;
+	margin: 20px;
 	box-sizing: border-box;
 }
 
