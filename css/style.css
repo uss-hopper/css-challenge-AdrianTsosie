@@ -5,10 +5,24 @@
 * Some rules have been included here to give you a head start.
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
-html, body {
+.header-container-wrapper{
+	background-color: grey;
+}
+
+h1 {
+	color: lawngreen;
+}
+
+.html, body {
 	margin: 20px;
 	box-sizing: border-box;
 }
+
+.center {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+
 
 .container {
 	margin: 0 auto;
