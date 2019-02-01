@@ -5,24 +5,10 @@
 * Some rules have been included here to give you a head start.
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
-.header-container-wrapper{
-	background-color: grey;
-}
-
-h1 {
-	color: lawngreen;
-}
-
 .html, body {
 	margin: 20px;
 	box-sizing: border-box;
 }
-
-.center {
-	width: 100%;
-	margin: auto;
-	text-align: center;
-
 
 .container {
 	margin: 0 auto;
@@ -76,5 +62,17 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+header {
+	background-color: dimgray;
+	padding: 30px;
+	text-align: center;
+	font-family: "Cousine";
+	font-size: 35px;
+	color: white;
+}
 
-
+.center {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
