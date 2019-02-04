@@ -84,18 +84,35 @@ em {
 	display: inline;
 }
 
-#top {
+ .container img{
 	padding: 40px;
+	display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .instructions-wrapper {
+	width: 1000px;
 	border: 5px solid black;
 	display: block;
 	padding: 5px;
 	margin: 25px;
 	display: block;
+}
+
+.instructions-content{
+	padding: 40px;
+	display: inline;
+	align-text: right;
+}
+
+.instructions-wrapper img {
+	padding: 40px;
+	display: inline;
+	width: 20%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h2 {
@@ -111,6 +128,64 @@ h4 {
 	font-size: .5pt;
 	font-family: Cousine;
 	color: white;
+}
+
+.about-me {
+	background-color: blue;
+	display: block;
+	padding: 5px;
+	margin: 25px;
+	display: block;
+}
+
+.about-me {
+	background-color: blue;
+	display: block;
+	padding: 5px;
+	margin: 25px;
+	display: block;
+}
+
+.container h2{
+	font-size: 12pt;
+	text-align: right;
+	font-family: Cousine;
+	color: black;
+	display: inline;
+}
+
+.container table {
+	font-family: "Cousine";
+	background-color: #454545;
+	width: 1000px;
+	height: 200px;
+	text-align: left;
+	border-collapse: collapse;
+}
+.container table td, .container table th {
+	border: 2px solid #FFFFFF;
+	padding: 3px 3px;
+}
+
+.container table th {
+	font-size: 16px;
+	font-weight: bold;
+	color: #36D900;
+	text-align: left;
+	border-left: 2px solid #FFFFFF;
+}
+
+.container table tbody td {
+	font-size: 13px;
+	color: #36D900;
+}
+.container table thead {
+	background: #474747;
+	border-bottom: 2px solid #FFFFFF;
+}
+
+.container table tfoot td {
+	font-size: 14px;
 }
 
 footer {
