@@ -93,26 +93,37 @@ em {
 
 .instructions-wrapper {
 	width: 1000px;
+    height: 200px;
 	border: 5px solid black;
 	display: block;
 	padding: 5px;
-	margin: 25px;
+    margin-left: auto;
+    margin-right: auto;
 	display: block;
 }
 
-.instructions-content{
-	padding: 40px;
-	display: inline;
-	align-text: right;
+.instructions-content h2 {
+    font-size: 15pt;
+    font-family: Cousine;
+    color: black;
+    padding: 25px 0 0 25px;
+    margin: 0px;
+    display: inline;
+}
+
+.instructions-content ol{
+	padding: 0 0 0 40px;
+	display: block;
+    margin: 5px;
 }
 
 .instructions-wrapper img {
-	padding: 40px;
-	display: inline;
+	padding: 10px 0 300px 780px;
+    margin: 0 0 150px 0px;
+	display: block;
 	width: 20%;
 	height: auto;
-	margin-left: auto;
-	margin-right: auto;
+
 }
 
 h2 {
@@ -132,34 +143,47 @@ h4 {
 
 .about-me {
 	background-color: blue;
-	display: block;
 	padding: 5px;
-	margin: 25px;
+	margin-top: 50px;
+    margin-bottom: 50px;
 	display: block;
 }
 
-.about-me {
-	background-color: blue;
-	display: block;
-	padding: 5px;
-	margin: 25px;
-	display: block;
+.about-me img {
+    padding: 0;
+    margin: 35px;
+	border: 2px solid white;
+    display: block;
+    width: 24%;
+    height: auto;
+}
+
+.containter h2 {
+	font-size: 12pt;
+	text-align: right;
+	font-family: Cousine;
+	color: white;
+	display: inline;
 }
 
 .container h2{
 	font-size: 12pt;
-	text-align: right;
 	font-family: Cousine;
+	padding: 50px 0 30px 795px;
+	margin: 0 0 50px 0px;
 	color: black;
 	display: inline;
 }
 
 .container table {
-	font-family: "Cousine";
+	font-family: Cousine;
 	background-color: #454545;
 	width: 1000px;
 	height: 200px;
 	text-align: left;
+	margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
 	border-collapse: collapse;
 }
 .container table td, .container table th {
@@ -188,7 +212,15 @@ h4 {
 	font-size: 14px;
 }
 
+.form-wrapper {
+    background-color: #353535;
+    display: block;
+    padding: 30px 400px 30px 480px;
+    margin: 50px 0px 0 0px;
+}
+
 footer {
+	font-size: 10px;
 	height: 25px;
 	padding: 15px;
 	text-align: center;
