@@ -63,25 +63,30 @@ body { width: 100%;}
 ******************************************************/
 
 header {
+    height: 40px;
+	padding: 25px;
 	background-color: #353535;
-	padding: 10px;
-	text-align: center;
-	font-family: "Cousine";
-	font-size: 35px;
-	color: #fc0006;
+
 }
 
-.h1 {
-    text-align: left;
+h1 {
+	padding: 0 0 0 70px;
+	margin: 20px;
+	font-size: 30pt;
+	font-family: Cousine;
+	color: #08fc22;
+	display: inline;
 }
-img.center {
-    display: block;
+
+em {
+	font-size: 10pt;
+	font-family: Cousine;
+	color: #08fc22;
+	display: inline;
+}
+
+img {
+	display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.center {
-	width: 100%;
-	margin: auto;
-	text-align: center;
 }
