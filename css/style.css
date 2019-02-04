@@ -84,7 +84,7 @@ em {
 	display: inline;
 }
 
- .container img{
+.container img{
 	padding: 40px;
 	display: block;
     margin-left: auto;
@@ -93,7 +93,7 @@ em {
 
 .instructions-wrapper {
 	width: 1000px;
-    height: 200px;
+    height: 175px;
 	border: 5px solid black;
 	display: block;
 	padding: 5px;
@@ -125,21 +125,6 @@ em {
 
 }
 
-h2 {
-	font-size: 15pt;
-	font-family: Cousine, sans-serif;
-	color: black;
-	display: inline;
-}
-
-h4 {
-	padding: 2px;
-	margin: 5px;]
-	font-size: .5pt;
-	font-family: Cousine, sans-serif;
-	color: white;
-}
-
 .about-me {
 	background-color: blue;
 	padding: 5px;
@@ -150,22 +135,32 @@ h4 {
 
 .about-me img {
     padding: 0;
-    margin: 35px;
+    margin: 35px 0 0 75px;
 	border: 2px solid white;
     display: block;
     width: 24%;
     height: auto;
 }
 
-.containter h2 {
+.about-me h2 {
 	font-size: 12pt;
 	text-align: right;
 	font-family: Cousine, sans-serif;
 	color: white;
-	display: inline;
+	display: block;
 }
 
-.container h2{
+.about-me p {
+	font-size: 10pt;
+	text-align: left;
+	font-family: Cousine, sans-serif;
+	color: white;
+	margin: 10px 40px 10px 400px;
+	padding: 5px;
+	display: block;
+}
+
+.container h2 {
 	font-size: 12pt;
 	font-family: Cousine, sans-serif;
 	padding: 50px 0 30px 795px;
@@ -212,10 +207,38 @@ h4 {
 }
 
 .form-wrapper {
-    background-color: #353535;
+    background-color: #1d1d1d;
+	height: 500px;
     display: block;
-    padding: 30px 400px 30px 480px;
+    padding: auto;
     margin: 50px 0 0 0;
+}
+
+.form-wrapper h2 {
+	font-size: 12pt;
+	font-family: Cousine, sans-serif;
+	margin: auto;
+	padding: auto;
+}
+
+
+.form-wrapper form {
+	width: 500px;
+	height: 400px;
+	background-color: green;
+	color: #08fc22;
+	margin: 10px auto 50px auto;
+	padding: auto;
+	label{
+		display:block;
+	}
+	input, textarea{
+		display: block;
+		width: 70%;
+		margin: auto;
+		margin: auto;
+
+	}
 }
 
 footer {
@@ -224,4 +247,12 @@ footer {
 	padding: 15px;
 	text-align: center;
 	background-color: #0a0005;
+}
+
+h4 {
+	padding: 2px;
+	margin: 5px;]
+font-size: .5pt;
+	font-family: Cousine, sans-serif;
+	color: white;
 }
