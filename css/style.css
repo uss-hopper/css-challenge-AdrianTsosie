@@ -63,12 +63,12 @@ body { width: 100%;}
 ******************************************************/
 
 header {
-	background-color: dimgray;
+	background-color: #1c1c1c;
 	padding: 30px;
 	text-align: center;
 	font-family: "Cousine";
 	font-size: 35px;
-	color: white;
+	color: lawngreen;
 }
 
 .center {
