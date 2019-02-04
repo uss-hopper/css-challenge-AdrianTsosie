@@ -84,6 +84,15 @@ em {
 	display: inline;
 }
 
+.container h2 {
+	font-size: 12pt;
+	font-family: Cousine, sans-serif;
+	padding: 50px 0 30px 795px;
+	margin: 0 0 50px 0;
+	color: black;
+	display: inline;
+}
+
 .container img{
 	padding: 40px;
 	display: block;
@@ -102,27 +111,29 @@ em {
 }
 
 .instructions-content h2 {
+	box-sizing: content-box;
+	width: 40%;
     font-size: 15pt;
     font-family: Cousine, sans-serif;
-    color: black;
-    padding: 25px 0 0 25px;
-    margin: 0;
-    display: inline;
+    color: #0a0005;
+    padding: 5px 0 0 25px;
+    margin: 5px 20px 0 0;
+    display: block;
 }
 
 .instructions-content ol{
-	padding: 0 0 0 40px;
+	float: left;
+	padding: 10px 0 0 40px;
 	display: block;
     margin: 5px;
 }
 
-.instructions-wrapper img {
-	padding: 10px 0 300px 780px;
-    margin: 0 0 150px 0;
-	display: block;
+.instructions-wrapper img{
+	float: right;
 	width: 20%;
+	margin: 0 20px 0 0;
+	padding: 0;
 	height: auto;
-
 }
 
 .about-me {
@@ -130,43 +141,40 @@ em {
 	padding: 5px;
 	margin-top: 50px;
     margin-bottom: 50px;
-	display: block;
 }
 
 .about-me img {
+	float: left;
     padding: 0;
     margin: 35px 0 0 75px;
 	border: 2px solid white;
     display: block;
-    width: 24%;
-    height: auto;
+    width: 220px;
+    height: 170px;
 }
 
 .about-me h2 {
 	font-size: 12pt;
-	text-align: right;
+	text-align: center;
+	margin: 50px 75px 0 100px;
+	padding: 0;
 	font-family: Cousine, sans-serif;
 	color: white;
-	display: block;
+	display: flow;
+}
+
+.about-me span {
+	color: yellow;
 }
 
 .about-me p {
-	font-size: 10pt;
+	font-size: 8pt;
 	text-align: left;
 	font-family: Cousine, sans-serif;
 	color: white;
 	margin: 10px 40px 10px 400px;
 	padding: 5px;
 	display: block;
-}
-
-.container h2 {
-	font-size: 12pt;
-	font-family: Cousine, sans-serif;
-	padding: 50px 0 30px 795px;
-	margin: 0 0 50px 0;
-	color: black;
-	display: inline;
 }
 
 .container table {
@@ -215,12 +223,12 @@ em {
 }
 
 .form-wrapper h2 {
+	color: #08fc22;
 	font-size: 12pt;
 	font-family: Cousine, sans-serif;
 	margin: auto;
 	padding: auto;
 }
-
 
 .form-wrapper form {
 	width: 500px;
@@ -229,16 +237,6 @@ em {
 	color: #08fc22;
 	margin: 10px auto 50px auto;
 	padding: auto;
-	label{
-		display:block;
-	}
-	input, textarea{
-		display: block;
-		width: 70%;
-		margin: auto;
-		margin: auto;
-
-	}
 }
 
 footer {
