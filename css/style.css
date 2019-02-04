@@ -72,14 +72,14 @@ h1 {
 	padding: 0 0 0 70px;
 	margin: 20px;
 	font-size: 30pt;
-	font-family: Cousine;
+	font-family: Cousine, sans-serif;
 	color: #08fc22;
 	display: inline;
 }
 
 em {
 	font-size: 10pt;
-	font-family: Cousine;
+	font-family: Cousine, sans-serif;
 	color: #08fc22;
 	display: inline;
 }
@@ -99,15 +99,14 @@ em {
 	padding: 5px;
     margin-left: auto;
     margin-right: auto;
-	display: block;
 }
 
 .instructions-content h2 {
     font-size: 15pt;
-    font-family: Cousine;
+    font-family: Cousine, sans-serif;
     color: black;
     padding: 25px 0 0 25px;
-    margin: 0px;
+    margin: 0;
     display: inline;
 }
 
@@ -119,7 +118,7 @@ em {
 
 .instructions-wrapper img {
 	padding: 10px 0 300px 780px;
-    margin: 0 0 150px 0px;
+    margin: 0 0 150px 0;
 	display: block;
 	width: 20%;
 	height: auto;
@@ -128,7 +127,7 @@ em {
 
 h2 {
 	font-size: 15pt;
-	font-family: Cousine;
+	font-family: Cousine, sans-serif;
 	color: black;
 	display: inline;
 }
@@ -137,7 +136,7 @@ h4 {
 	padding: 2px;
 	margin: 5px;]
 	font-size: .5pt;
-	font-family: Cousine;
+	font-family: Cousine, sans-serif;
 	color: white;
 }
 
@@ -161,22 +160,22 @@ h4 {
 .containter h2 {
 	font-size: 12pt;
 	text-align: right;
-	font-family: Cousine;
+	font-family: Cousine, sans-serif;
 	color: white;
 	display: inline;
 }
 
 .container h2{
 	font-size: 12pt;
-	font-family: Cousine;
+	font-family: Cousine, sans-serif;
 	padding: 50px 0 30px 795px;
-	margin: 0 0 50px 0px;
+	margin: 0 0 50px 0;
 	color: black;
 	display: inline;
 }
 
 .container table {
-	font-family: Cousine;
+	font-family: Cousine, sans-serif;
 	background-color: #454545;
 	width: 1000px;
 	height: 200px;
@@ -216,7 +215,7 @@ h4 {
     background-color: #353535;
     display: block;
     padding: 30px 400px 30px 480px;
-    margin: 50px 0px 0 0px;
+    margin: 50px 0 0 0;
 }
 
 footer {
